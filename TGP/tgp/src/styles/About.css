@@ -1,0 +1,130 @@
+.about-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap; /* Allow wrapping for smaller screens */
+}
+
+.about-content .text {
+  width: 70%;
+  padding: 3rem; /* Adjust padding as needed */
+}
+
+.about-content .about-image {
+  width: 30%;
+  padding: 3em; /* Adjust padding as needed */
+}
+
+.about-content .text h2 {
+  font-size: 1em;
+  text-align: justify;
+}
+
+.about-content .about-image img {
+  width: 100%;
+  height: auto;
+  max-width: 100%; /* Adjust as needed */
+  max-height: 400px; /* Adjust as needed */
+  object-fit: cover; /* Maintain aspect ratio while covering the container */
+}
+
+.about-content .about-video {
+  width: 100%;
+  padding: 3em; /* Adjust padding as needed */
+  display: flex;
+  justify-content: center; /* Center the video horizontally */
+  align-items: center; /* Center the video vertically */
+}
+
+.about-content .about-video video {
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  max-height: 100%; /* Adjust as needed */
+  object-fit: contain; /* Maintain aspect ratio while fitting the container */
+}
+
+.first-color { 
+  background: #faf6e9; 
+}
+
+.second-color { 
+  background: #ece8d9; 
+}
+
+.third-color { 
+  background: #fffdf6; 
+}
+
+.fourth-color { 
+  background: #494949; 
+}
+
+.dark .first-color { 
+  background: #303841; 
+}
+
+.dark .second-color { 
+  background: #3a4750; 
+}
+
+.dark .third-color { 
+  background: #00adb5; 
+}
+
+.dark .fourth-color { 
+  background: #eeeeee; 
+}
+
+.about-h1 {
+  text-align: center;
+  padding-top: 3rem;
+  color: #ffd700;
+  font-size: 3em;
+}
+
+.dark .about-content {
+  color: #fff;
+}
+
+.about-con {
+  background: #faf6e9; 
+}
+
+.dark .about-con {
+  background: #303841; 
+}
+
+@media screen and (max-width: 1024px) {
+  .about-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  .about-content .about-image,
+  .about-content .text {
+    width: 100%;
+    padding: 3rem; /* Adjust padding as needed */
+  }
+}
+
+@media screen and (max-width: 1023px) and (min-width: 601px) {
+  #reverse-on-mobile {
+    flex-direction: column-reverse;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .about-content .text h2 {
+    font-size: 0.8em;
+  }
+  .about-content .about-image img {
+    max-height: 300px; /* Adjust as needed */
+  }
+  #reverse-on-mobile {
+    flex-direction: column-reverse;
+  }
+}

@@ -1,0 +1,9 @@
+/* Remove underline from links inside Menu */
+.MuiMenu-list li a {
+  text-decoration: none;
+}
+
+/* Apply hover effect to links inside Menu */
+.MuiMenu-list li a:hover {
+  color: #ffcc00; /* Change to your desired hover color */
+}
