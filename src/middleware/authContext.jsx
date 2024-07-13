@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import PropTypes from 'prop-types';
 import { Navigate, useLocation } from 'react-router-dom';
 import PasswordModal from '../utils/PasswordModal'; // Adjust the import path as needed
+import '../styles/members.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 const ProtectedRoute = ({ element: Component, isAuthenticated, setIsAuthenticated }) => {
@@ -44,7 +45,11 @@ const ProtectedRoute = ({ element: Component, isAuthenticated, setIsAuthenticate
           Incorrect password. Please try again.
         </div>
       )}
-      <div>Please enter password to access this page.</div>
+      <div className='body-container'>
+      <div className='enter-pass'>
+        <h1>Please enter password to access this page.</h1>
+      </div>
+      </div>
       <PasswordModal
         show={showModal}
         handleClose={() => setShowModal(false)}

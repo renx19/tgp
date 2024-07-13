@@ -13,7 +13,7 @@ export const MembersData = [
     status: "Expelled",
     qrData: {
       id: 1,
-      link: `https://tgp-tayhi.netlify.app/member/1`
+      link: `https://tgp-tayhi.netlify.app#/member/1`
     }
   },
   { 
@@ -30,7 +30,7 @@ export const MembersData = [
     status: "Active",
     qrData: {
       id: 2,
-      link: `http://localhost:5173/member/2`
+      link: `https://tgp-tayhi.netlify.app#/member/2`
     }
   },
   { 
@@ -47,7 +47,7 @@ export const MembersData = [
     status: "Active",
     qrData: {
       id: 3,
-      link: `http://localhost:5173/member/3`
+      link: `https://tgp-tayhi.netlify.app#/member/3`
     }
   },
   { 
@@ -64,7 +64,7 @@ export const MembersData = [
     status: "Active",
     qrData: {
       id: 4,
-      link: `http://localhost:5173/member/4`
+      link: `https://tgp-tayhi.netlify.app#/member/4`
     }
   },
   { 
@@ -81,7 +81,7 @@ export const MembersData = [
     status: "Active",
     qrData: {
       id: 5,
-      link: `http://localhost:5173/member/5`
+      link: `https://tgp-tayhi.netlify.app#/member/5`
     }
   },
   { 
@@ -98,7 +98,7 @@ export const MembersData = [
     status: "Active",
     qrData: {
       id: 6,
-      link: `http://localhost:5173/member/6`
+      link: `https://tgp-tayhi.netlify.app#/member/6`
     }
   },
   { 
@@ -115,7 +115,7 @@ export const MembersData = [
     status: "Active",
     qrData: {
       id: 7,
-      link: `http://localhost:5173/member/7`
+      link: `https://tgp-tayhi.netlify.app#/member/7`
     }
   },
   { 
@@ -132,7 +132,7 @@ export const MembersData = [
     status: "Active",
     qrData: {
       id: 8,
-      link: `http://localhost:5173/member/8`
+      link: `https://tgp-tayhi.netlify.app#/member/8`
     }
   },
   { 
@@ -149,7 +149,7 @@ export const MembersData = [
     status: "Active",
     qrData: {
       id: 9,
-      link: `http://localhost:5173/member/9`
+      link: `https://tgp-tayhi.netlify.app#/member/9`
     }
   },
   { 
@@ -166,7 +166,7 @@ export const MembersData = [
     status: "Active",
     qrData: {
       id: 10,
-      link: `http://localhost:5173/member/10`
+      link: `https://tgp-tayhi.netlify.app#/member/10`
     }
   },
   { 
@@ -183,7 +183,7 @@ export const MembersData = [
     status: "Active",
     qrData: {
       id: 11,
-      link: `http://localhost:5173/member/11`
+      link: `https://tgp-tayhi.netlify.app#/member/11`
     }
   },
   { 
@@ -200,7 +200,7 @@ export const MembersData = [
     status: "Active",
     qrData: {
       id: 12,
-      link: `http://localhost:5173/member/12`
+      link: `https://tgp-tayhi.netlify.app#/member/12`
     }
   },
   { 
@@ -217,7 +217,7 @@ export const MembersData = [
     status: "Active",
     qrData: {
       id: 13,
-      link: `http://localhost:5173/member/13`
+      link: `https://tgp-tayhi.netlify.app#/member/13`
     }
   },
   { 
@@ -234,7 +234,7 @@ export const MembersData = [
     status: "Active",
     qrData: {
       id: 14,
-      link: `http://localhost:5173/member/14`
+      link: `https://tgp-tayhi.netlify.app#/member/14`
     }
   },
   { 
@@ -251,7 +251,7 @@ export const MembersData = [
     status: "Active",
     qrData: {
       id: 15,
-      link: `http://localhost:5173/member/15`
+      link: `https://tgp-tayhi.netlify.app#/member/15`
     }
   },
   { 
@@ -268,7 +268,7 @@ export const MembersData = [
     status: "Active",
     qrData: {
       id: 16,
-      link: `http://localhost:5173/member/16`
+      link: `https://tgp-tayhi.netlify.app#/member/16`
     }
   },
   { 
@@ -285,7 +285,7 @@ export const MembersData = [
     status: "Active",
     qrData: {
       id: 17,
-      link: `http://localhost:5173/member/17`
+      link: `https://tgp-tayhi.netlify.app#/member/17`
     }
   },
   { 
@@ -302,7 +302,7 @@ export const MembersData = [
     status: "Active",
     qrData: {
       id: 18,
-      link: `http://localhost:5173/member/18`
+      link: `https://tgp-tayhi.netlify.app#/member/18`
     }
   },
   { 
@@ -319,7 +319,7 @@ export const MembersData = [
     status: "Active",
     qrData: {
       id: 19,
-      link: `http://localhost:5173/member/19`
+      link: `https://tgp-tayhi.netlify.app#/member/19`
     }
   },
   { 
@@ -336,7 +336,7 @@ export const MembersData = [
     status: "Active",
     qrData: {
       id: 20,
-      link: `http://localhost:5173/member/20`
+      link: `https://tgp-tayhi.netlify.app#/member/20`
     }
   },
   { 
@@ -353,7 +353,7 @@ export const MembersData = [
     status: "Active",
     qrData: {
       id: 21,
-      link: `http://localhost:5173/member/21`
+      link: `https://tgp-tayhi.netlify.app#/member/21`
     }
   },
   { 
@@ -370,7 +370,7 @@ export const MembersData = [
     status: "Active",
     qrData: {
       id: 22,
-      link: `http://localhost:5173/member/22`
+      link: `https://tgp-tayhi.netlify.app#/member/22`
     }
   },
   { 
@@ -387,7 +387,7 @@ export const MembersData = [
     status: "Active",
     qrData: {
       id: 23,
-      link: `http://localhost:5173/member/23`
+      link: `https://tgp-tayhi.netlify.app#/member/23`
     }
   },
   { 
@@ -404,7 +404,7 @@ export const MembersData = [
     status: "Active",
     qrData: {
       id: 24,
-      link: `http://localhost:5173/member/24`
+      link: `https://tgp-tayhi.netlify.app#/member/24`
     }
   },
   { 
@@ -421,7 +421,7 @@ export const MembersData = [
     status: "Active",
     qrData: {
       id: 25,
-      link: `http://localhost:5173/member/25`
+      link: `https://tgp-tayhi.netlify.app#/member/25`
     }
   },
   { 
@@ -438,7 +438,7 @@ export const MembersData = [
     status: "Active",
     qrData: {
       id: 26,
-      link: `http://localhost:5173/member/26`
+      link: `https://tgp-tayhi.netlify.app#/member/26`
     }
   },
   { 
@@ -455,7 +455,7 @@ export const MembersData = [
     status: "Active",
     qrData: {
       id: 27,
-      link: `http://localhost:5173/member/27`
+      link: `https://tgp-tayhi.netlify.app#/member/27`
     }
   },
   { 
@@ -472,7 +472,7 @@ export const MembersData = [
     status: "Active",
     qrData: {
       id: 28,
-      link: `http://localhost:5173/member/28`
+      link: `https://tgp-tayhi.netlify.app#/member/28`
     }
   },
   { 
@@ -489,7 +489,7 @@ export const MembersData = [
     status: "Active",
     qrData: {
       id: 29,
-      link: `http://localhost:5173/member/29`
+      link: `https://tgp-tayhi.netlify.app#/member/29`
     }
   },
   { 
@@ -506,7 +506,7 @@ export const MembersData = [
     status: "Active",
     qrData: {
       id: 30,
-      link: `http://localhost:5173/member/30`
+      link: `https://tgp-tayhi.netlify.app#/member/30`
     }
   },
   { 
@@ -523,7 +523,7 @@ export const MembersData = [
     status: "Active",
     qrData: {
       id: 31,
-      link: `http://localhost:5173/member/31`
+      link: `https://tgp-tayhi.netlify.app#/member/31`
     }
   },
   { 
@@ -540,7 +540,7 @@ export const MembersData = [
     status: "Active",
     qrData: {
       id: 32,
-      link: `http://localhost:5173/member/32`
+      link: `https://tgp-tayhi.netlify.app#/member/32`
     }
   },
   { 
@@ -557,7 +557,7 @@ export const MembersData = [
     status: "Active",
     qrData: {
       id: 33,
-      link: `http://localhost:5173/member/33`
+      link: `https://tgp-tayhi.netlify.app#/member/33`
     }
   },
   { 
@@ -574,7 +574,7 @@ export const MembersData = [
     status: "Active",
     qrData: {
       id: 34,
-      link: `http://localhost:5173/member/34`
+      link: `https://tgp-tayhi.netlify.app#/member/34`
     }
   },
   { 
@@ -591,7 +591,7 @@ export const MembersData = [
     status: "Active",
     qrData: {
       id: 35,
-      link: `http://localhost:5173/member/35`
+      link: `https://tgp-tayhi.netlify.app#/member/35`
     }
   },
   { 
@@ -608,7 +608,7 @@ export const MembersData = [
     status: "Active",
     qrData: {
       id: 36,
-      link: `http://localhost:5173/member/36`
+      link: `https://tgp-tayhi.netlify.app#/member/36`
     }
   },
   { 
@@ -625,7 +625,7 @@ export const MembersData = [
     status: "Active",
     qrData: {
       id: 37,
-      link: `http://localhost:5173/member/37`
+      link: `https://tgp-tayhi.netlify.app#/member/37`
     }
   },
   { 
@@ -642,7 +642,7 @@ export const MembersData = [
     status: "Active",
     qrData: {
       id: 38,
-      link: `http://localhost:5173/member/38`
+      link: `https://tgp-tayhi.netlify.app#/member/38`
     }
   },
   { 
@@ -659,7 +659,7 @@ export const MembersData = [
     status: "Active",
     qrData: {
       id: 39,
-      link: `http://localhost:5173/member/39`
+      link: `https://tgp-tayhi.netlify.app#/member/39`
     }
   },
   { 
@@ -676,7 +676,7 @@ export const MembersData = [
     status: "Active",
     qrData: {
       id: 40,
-      link: `http://localhost:5173/member/40`
+      link: `https://tgp-tayhi.netlify.app#/member/40`
     }
   },
   { 
@@ -693,7 +693,7 @@ export const MembersData = [
     status: "Active",
     qrData: {
       id: 41,
-      link: `http://localhost:5173/member/41`
+      link: `https://tgp-tayhi.netlify.app#/member/41`
     }
   },
   { 
@@ -710,7 +710,7 @@ export const MembersData = [
     status: "Active",
     qrData: {
       id: 42,
-      link: `http://localhost:5173/member/42`
+      link: `https://tgp-tayhi.netlify.app#/member/42`
     }
   },
   { 
@@ -727,7 +727,7 @@ export const MembersData = [
     status: "Active",
     qrData: {
       id: 43,
-      link: `http://localhost:5173/member/43`
+      link: `https://tgp-tayhi.netlify.app#/member/43`
     }
   },
   { 
@@ -744,7 +744,7 @@ export const MembersData = [
     status: "Active",
     qrData: {
       id: 44,
-      link: `http://localhost:5173/member/44`
+      link: `https://tgp-tayhi.netlify.app#/member/44`
     }
   },
   { 
@@ -761,7 +761,7 @@ export const MembersData = [
     status: "Active",
     qrData: {
       id: 45,
-      link: `http://localhost:5173/member/45`
+      link: `https://tgp-tayhi.netlify.app#/member/45`
     }
   },
   { 
@@ -778,7 +778,7 @@ export const MembersData = [
     status: "Active",
     qrData: {
       id: 46,
-      link: `http://localhost:5173/member/46`
+      link: `https://tgp-tayhi.netlify.app#/member/46`
     }
   },
   { 
@@ -795,7 +795,7 @@ export const MembersData = [
     status: "Active",
     qrData: {
       id: 47,
-      link: `http://localhost:5173/member/47`
+      link: `https://tgp-tayhi.netlify.app#/member/47`
     }
   },
   { 
@@ -812,7 +812,7 @@ export const MembersData = [
     status: "Active",
     qrData: {
       id: 48,
-      link: `http://localhost:5173/member/48`
+      link: `https://tgp-tayhi.netlify.app#/member/48`
     }
   },
       {
@@ -829,7 +829,7 @@ export const MembersData = [
         status: "Active",
         qrData: JSON.stringify({
           id: 49,
-          link: "",
+          link: "https://tgp-tayhi.netlify.app#/member/49",
         })
       },
       {
@@ -846,7 +846,7 @@ export const MembersData = [
         status: "Active",
         qrData: JSON.stringify({
           id: 50,
-          link: "",
+          link: "https://tgp-tayhi.netlify.app#/member/50",
         })
       },
       {
@@ -863,7 +863,7 @@ export const MembersData = [
         status: "Active",
         qrData: JSON.stringify({
           id: 51,
-          link: "",
+          link: "https://tgp-tayhi.netlify.app#/member/51",
         })
       },
       {
@@ -880,7 +880,7 @@ export const MembersData = [
         status: "Active",
         qrData: JSON.stringify({
           id: 52,
-          link: "",
+          link: "https://tgp-tayhi.netlify.app#/member/52",
         })
       },
       {
@@ -897,7 +897,7 @@ export const MembersData = [
         status: "Active",
         qrData: JSON.stringify({
           id: 53,
-          link: "",
+          link: "https://tgp-tayhi.netlify.app#/member/53",
         })
       },
       {
@@ -914,16 +914,7 @@ export const MembersData = [
         status: "Active",
         qrData: JSON.stringify({
           id: 54,
-          name: "Arnold Onrubia",
-          batchName: "1987 Constitution",
-          dateofIR: "August 13, 2023",
-          alexisName: "National Territory",
-          sponsorName: "Reyman Cabiles",
-          GTGLT: "Arthur Onrubia",
-          MWW: "Marvin Bien",
-          almaMater: "Tayhi",
-          birthday: "24/11/1992",
-          status: "Active"
+          link: "https://tgp-tayhi.netlify.app#/member/54",
         })
       }
 

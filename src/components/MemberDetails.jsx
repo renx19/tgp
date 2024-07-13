@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import { MembersData } from '../utils/MembersData'; // Assuming this imports your JSON data
-import QRCode from 'qrcode.react';
 import "../styles/members.css"
 
 const MemberDetailsComponent = () => {
@@ -60,6 +59,7 @@ const MemberDetailsComponent = () => {
   }
 
   return (
+    <div className='members-con' >
     <div className='members-wrapper' >
       <h2>{member.name}</h2>
       <table className="member-details-table">
@@ -106,6 +106,7 @@ const MemberDetailsComponent = () => {
           </tr>
         </tbody>
       </table>
+    </div>
     </div>
   );
 };
