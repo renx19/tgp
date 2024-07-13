@@ -7,7 +7,6 @@ import { events1 } from '../utils/Data';
 import { motion } from "framer-motion";
 import { Link} from 'react-router-dom';
 
-import Footer from '../scenes/Footer'
 
 const Events = () => {
   const [index, setIndex] = useState(0);
@@ -43,7 +42,8 @@ const Events = () => {
   // Function to filter out only the first image for each event number
 
   return (
-    <div className="container">
+    <div className="body-container">
+          <div className="event-con">
       <div className="slide-container">
       <motion.div
           initial="hidden"
@@ -58,7 +58,7 @@ const Events = () => {
         >
         <Slider {...settings}>
           {events1.map((events1, index) => (
-            <div key={index} className="card">
+            <div key={index} className="card-con">
               <div className="image-content">
                 <span className="overlay"></span>
                 <div className="card-image">
@@ -70,7 +70,7 @@ const Events = () => {
                 <div className="description-container">
                   <p className="description">{events1.Description}</p>
                 </div>
-                <Link to ='/events-list'> 
+                <Link to ='/el'> 
                 <button className="button-events">Learn More</button>
                 </Link>
               </div>
@@ -91,9 +91,11 @@ const Events = () => {
           }}
         
         >
-      <Footer/>
+     
       </motion.div>
+      </div>
     </div>
+      
   );
 };
 

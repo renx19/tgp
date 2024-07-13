@@ -1,8 +1,48 @@
+.about-con{
+  height: 100%;
+}
+
 .about-content {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap; /* Allow wrapping for smaller screens */
+  margin: 2rem 0;
+
+}
+
+.text-org{
+  text-align: center;
+}
+#text-org{
+  color: #ffd700;
+}
+
+.text-founder {
+ 
+  justify-content: center;
+  align-items: center;
+  width: 100%; /* Ensure it takes full width */
+  margin: 2rem 0;
+}
+.dark .text-founder{
+  color: #fff;
+}
+
+#text-spacing{
+  padding: 2rem;
+}
+
+.text-con {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 columns grid */
+  justify-items: center; /* Center the grid items */
+  gap: 1rem; /* Optional: Add some space between items */
+}
+ 
+.text-con p {
+  text-align: left; /* Align text to the left */
+  margin: 0; /* Remove any default margins if needed */
 }
 
 .about-content .text {
@@ -44,6 +84,8 @@
   object-fit: contain; /* Maintain aspect ratio while fitting the container */
 }
 
+
+
 .first-color { 
   background: #faf6e9; 
 }
@@ -66,6 +108,7 @@
 
 .dark .second-color { 
   background: #3a4750; 
+  
 }
 
 .dark .third-color { 
@@ -127,4 +170,11 @@
   #reverse-on-mobile {
     flex-direction: column-reverse;
   }
+}
+
+@media screen and (max-width: 767px) {
+  .text-con{
+    grid-template-columns: repeat(1, 1fr); /* 3 columns grid */
+  }
+  
 }

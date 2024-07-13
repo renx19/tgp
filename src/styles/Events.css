@@ -1,60 +1,76 @@
 .slick-slide > div {
-  margin: 0 10px; // add the margin between the card slides//
+  margin: 0 10px; /* Add the margin between the card slides */
 }
 
 .slide-container {
   padding: 2rem;
-  margin-top: 2rem;
+  
 }
 
-.card {
+.event-con{
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+}
+.card-con {
   height: auto;
-  min-height: 550px;
+  min-height: 550px; /* Default minimum height */
   padding: 2rem;
   margin-bottom: 2rem;
-  border-radius: 5%;
+  border-radius: 2%;
   background: #242424;
   color: #fff;
-  margin-left: ;
 }
 
-@media screen and (min-width: 1800px) {
-  .card {
-    min-height: 650px;
+@media screen and (max-width: 1800px) {
+  .card-con {
+    min-height: 550px; /* Adjust for large screens */
   }
 }
-
-@media screen and (max-width: 820px) and (min-width: 768px) {
-  .card {
-    min-height: 500px;
+@media screen and (max-width: 1024px) and (min-width: 820px) {
+  .card-con {
+    min-height: 480px; /* Adjust for large screens */
   }
-}
 
-@media screen and (max-width: 768px) and (min-width: 640px) {
-  .card {
-    min-height: 700px;
+  .description {
+    text-overflow: clip; /* Counter the ellipsis and show full text */
   }
 }
 
-@media screen and (max-width: 640px) and (min-width: 570px) {
-  .card {
-    min-height: 650px; /* Minimum height remains 500px for screens between 470px and 600px */
-  }
-}
-@media screen and (max-width: 570px) and (min-width: 500px) {
-  .card {
-    min-height: 560px; /* Minimum height remains 500px for screens between 470px and 600px */
+
+
+@media screen and (max-width: 820px) {
+  .card-con {
+    min-height: 500px; /* Adjust for medium screens */
   }
 }
 
-@media screen and (max-width: 500px) and (min-width: 430px) {
-  .card {
-    min-height: 540px; /* Minimum height remains 500px for screens between 470px and 600px */
+@media screen and (max-width: 768px) {
+  .card-con {
+    min-height: 750px; /* Adjust for tablets */
   }
 }
-@media screen and (max-width: 430px) and (min-width: 350px) {
-  .card {
-    min-height: 500px; /* Minimum height remains 500px for screens between 470px and 600px */
+
+@media screen and (max-width: 640px) {
+  .card-con {
+    min-height: 650px; /* Adjust for small tablets */
+  }
+}
+
+@media screen and (max-width: 570px) {
+  .card-con {
+    min-height: 560px; /* Adjust for large phones */
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .card-con {
+    min-height: 540px; /* Adjust for medium phones */
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .card-con {
+    min-height: 500px; /* Adjust for small phones */
   }
 }
 
@@ -62,31 +78,44 @@
   border-radius: 5%;
 }
 
-.dark .card {
+.dark .card-con {
   background: #fff;
   color: #242424;
 }
 
 .card-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
   padding: 0.7rem;
 }
 
 .card-content h2 {
   color: #ffd700;
   font-size: 1.2em;
+  height: 2.4em; /* Adjust height to fit a specific number of lines */
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap; /* Ensure text does not wrap to the next line */
+  margin: 0; /* Remove default margin */
 }
 
 .description-container {
-  max-height: 100px;
+  max-height: 100px; /* Set the max-height as per your requirement */
   overflow: hidden;
+  position: relative;
+  flex-grow: 1;
 }
 
 .description {
   font-size: 14px;
   line-height: 1.4;
-  -webkit-line-clamp: 3;
+  max-height: 100px; /* Match this with .description-container's max-height */
+  -webkit-line-clamp: 3; /* Number of lines to show before truncating */
   display: -webkit-box;
   -webkit-box-orient: vertical;
+  overflow: hidden;
   text-overflow: ellipsis;
   padding-top: 1rem;
 }
@@ -94,15 +123,22 @@
 
 
 
-/*Events Per Page CSS*/
+
+
+
+
+
+
+
+/*Event List CSS*/
 
 .event-card {
   height: auto;
   padding: 2rem;
   margin-bottom: 2rem;
   border-radius: 5%;
-  background: #242424;
-  color: #fff;
+  background: #fff;
+  color: #242424;
   
 
 
@@ -139,6 +175,14 @@
   color: #fff;
 }
 
+.dark .event-card { 
+  color: #fff;
+  background: #242424;
+}
+.event-card{
+  color: #242424;
+}
+
 
 
 .search-con {
@@ -146,7 +190,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-top: 20px; /* Adjust margin as needed */
+   /* Adjust margin as needed */
 }
 
 .search-boxx {
@@ -160,6 +204,15 @@
   margin-top: 3rem; /* Adjust margin as needed */
 }
 
+.dark .search-boxx {
+
+  background: #fff;
+  color: #242424;
+}
+
+
+
+
 
 
 
@@ -169,6 +222,7 @@
 
 /* Style the button for events */
 .button-events {
+ 
   bottom: 4rem;
   position: absolute;
   padding: 10px 22px;
@@ -270,3 +324,6 @@
     background-size: 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%;
   }
 }
+
+
+

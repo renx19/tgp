@@ -4,19 +4,27 @@
   box-sizing: border-box;
   font-family: sans-serif;
 }
+/* index.css */
 
-.container {
-  width: 100vw;
-  min-height: 100vh;
-  /* background: #003ed3; */
-  transistion: 0.5s;
- position: relative;
- overflow-x: hidden;
- overflow-y: hidden;
-  
+html, body {
+  height: 100%;
 }
 
-.dark .container {
+#root {
+  height: 100%;
+  transition: 0.5s;
+}
+
+
+.body-container {
+  width: 100%;
+  min-height: 80vh;
+  height: 100%:
+  transistion: 0.5s;
+  position: relative;
+}
+
+.dark .body-container {
   background: #242424;
 }
 

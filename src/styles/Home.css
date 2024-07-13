@@ -1,13 +1,28 @@
 .content {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: center; 
+      
+  
   }
 
+
+
 .home-con {
+     padding-top: 2rem;
     width: 100%;
     text-align: center;
     color: #fff;
+
+  }
+  .home-image{
+    width: 500px;
+    height: 300px;
+  }
+
+  .home-image img {
+    width: 100%;
+    height: 100%;
   }
 
 
@@ -15,31 +30,52 @@
     display: flex;
     align-items: center;
     padding: 3rem;
-    justify-content: space-between; /* Align items with space between */
+    justify-content: ; /* Align items with space between */
     
   }
   
   .text-content {
-    width: 50%; /* Adjust the width as needed */
+    width: 100%; /* Adjust the width as needed */
     margin: auto; /* Center the div horizontally */
     padding: 2rem  0 2rem 0; /* Add some padding around the content */
   }
   
 
   
-  .image-content {
+  .home-image-content {
     flex: 1; /* Allow the image content to take the remaining space */
     display: flex;
-    justify-content: flex-end; /* Align image to the right */
+    justify-content: center; /* Align image to the right */
     align-items: center; /* Align image vertically */
   }
-  
-  .image-content img {
-    max-width: 100%; /* Ensure the image doesn't exceed the container */
-    height: auto; /* Maintain aspect ratio */
-    border-radius: 5%;
+  .tayhi-image-con{
+    width: 300px;
+    height: 300px;
+    margin: 2rem;
+    
+  }
+
+  .tayhi-image-con img{
+    width: 100%;
+    border-radius: 50%;
+  }
+
+  .text-org{
+    justify-content: center; 
+    align-items: center; 
   }
   
+  .h1-home-image-content img {
+    max-width: 100%; /* Ensure the image doesn't exceed the container */
+    height: 200px; /* Maintain aspect ratio */
+    border-radius: 5%;
+  }
+  .text-content h4{
+    color: #FFD700;
+  }
+  .h1-title{
+    color: #FFD700;
+  }
 
   .text-content h1 {
     font-size: 2.2em;
@@ -57,6 +93,213 @@
     
   }
 
+  .home-card-con {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: center;
+    padding: 5rem;
+    gap: 2rem;
+  }
+  
+  .home-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background: #242424;
+    color: #fff;
+    width: 300px;
+    padding: 10px;
+    border-radius: 8px;
+  }
+
+  .dark .home-card{
+    background:  #fff;
+    color: #242424;
+  }
+  
+  .home-image-content img {
+    width: 100%;
+    height: auto;
+    max-height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  
+  .home-card h1 {
+    margin: 1rem 0 0.5rem 0;
+  }
+  
+  .home-card p {
+    flex-grow: 1;
+    margin: 0.5rem 0;
+    padding: 0 10px;
+  }
+  
+  .icon {
+    margin: 1rem 0;
+  }
+ 
+
+  .prayer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+  
+  .prayer {
+    color: #242424;
+    background:   #fff; 
+    padding: 2rem; /* Padding around the section */
+    margin: 2rem 0; /* Margin to separate from other sections */
+    border-radius: 8px; /* Rounded corners */
+    text-align: justify; /* Justify the text */
+
+    width: 500px; /* Fixed width for the prayer */
+  }
+
+  .dark .prayer{
+
+    background: #242424; /* Background color */
+    color: #fff;
+    
+  }
+  
+  .prayer img {
+    float: left; /* Float image to the left */
+    margin: 0 1rem 1rem 0; /* Margin to the right and bottom */
+    width: 40px; /* Adjust the size of the image */
+    height: auto; /* Maintain aspect ratio */
+  }
+  
+  .prayer h1 {
+    font-size: 2rem; /* Font size for the heading */
+    margin-bottom: 1rem; /* Space below the heading */
+  text-align: center;
+    margin-top: 4rem;
+    color: #FFD700;
+  }
+  
+  .prayer p {
+    font-size: 1rem; /* Font size for the paragraph */
+    line-height: 1.5; /* Line height for readability */
+    max-width: 100%; /* Maximum width of the paragraph */
+    margin: 0; /* Center align the paragraph */
+  }
+
+
+  
+  .tenets-con{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+  .Text-text-con{
+    margin: 0 auto;
+  }
+ 
+  .tenets {
+    color: #242424; /* Text color */
+    padding: 2rem; /* Padding around the section */
+    margin: 2rem 0; /* Margin to separate from other sections */
+    border-radius: 8px; /* Rounded corners */
+    text-align: left; /* Left align the text */
+    width: 100%;
+  }
+  
+  .tenets h1 {
+    font-size: 2rem; /* Font size for the heading */
+    margin-bottom: 1rem; /* Space below the heading */
+    text-align: center; /* Center align the heading */
+    text-transform: uppercase;
+    color: #FFD700; /* Gold color for the "Tenet" label */
+  }
+  
+  .tenets p {
+    font-size: 1rem; /* Font size for the paragraph */
+    line-height: 1.5; /* Line height for readability */
+    max-width: 800px; /* Maximum width of the paragraph */
+    margin: 0.5rem auto; /* Center align the paragraph */
+  }
+  
+  .tenets p span {
+    font-weight: bold; /* Bold the "Tenet" label */
+    color: #FFD700; /* Gold color for the "Tenet" label */
+    margin-right: 0.5rem; /* Add right margin between span and p */
+    font-weight: 900;
+    
+  }
+
+  .code-of-conduct p span {
+    font-weight: bold; /* Bold the "Tenet" label */
+    color: #FFD700; /* Gold color for the "Tenet" label */
+    margin-right: 0.5rem; /* Add right margin between span and p */
+    font-weight: 900;
+    
+  }
+
+
+
+
+.conduct-con{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+  
+  .code-of-conduct {
+    color: #242424; /* Text color */
+    padding: 2rem; /* Padding around the section */
+    margin: 2rem 0; /* Margin to separate from other sections */
+    border-radius: 8px; /* Rounded corners */
+    text-align: left; /* Left align the text */
+    width: 100%;
+  }
+  
+  .code-of-conduct h1, .code-of-conduct h2, .code-of-conduct h3 {
+    text-align: center;
+    font-size: 2rem; /* Font size for the main heading */
+    margin-bottom: 1rem; /* Space below the main heading */
+    color: #FFD700; 
+  }
+  
+  .code-of-conduct h2 {
+    font-size: 1.5rem; /* Font size for the second heading */
+    margin-top: 2rem; /* Space above the second heading */
+  }
+  
+  .code-of-conduct h3 {
+    font-size: 1.25rem; /* Font size for the third heading */
+    margin-top: 1rem; /* Space above the third heading */
+  }
+  
+  .code-of-conduct p {
+    font-size: 1rem; /* Font size for the paragraph */
+    line-height: 1.5; /* Line height for readability */
+    max-width: 800px; /* Maximum width of the paragraph */
+    margin: 0.5rem auto; /* Center align the paragraph */
+  }
+  
+  
+  .code-text-con p {
+    /* Remove default margins */
+    line-height: 1.5; /* Optional: Adjust line height for readability */
+  }
+  
+ 
+  .dark .text-content p {
+    color: #fff; 
+  }
+
+  .dark .code-text-con p, .dark .tenets {
+  color: #fff; 
+  }
+
   .home-con h1{
     margin: 0;
     font-size: 120px;
@@ -69,6 +312,7 @@
     text-transform: uppercase;
     font-weight: 900;
   }
+
   
     @keyframes animate {
       0%, 100% {
@@ -105,6 +349,16 @@
         margin-right: 2rem;
        
       }
+      .tenets, .code-of-conduct{
+        width: 100%;
+
+      }
+      .code-of-conduct p, .tenets p{
+        padding: 0 20px;
+        
+
+      }
+      
 
   }
   @media screen and (max-width: 820px) and (min-width: 610px) { 
@@ -118,7 +372,17 @@
         font-size: 1.2em;
         padding-bottom: 2rem;
       }
-  
+
+
+      .tenets{
+        width: 100%;
+
+      }
+      .code-of-conduct p, .tenets p{
+        padding: 0 40px;
+        
+
+      }
    
   
 
@@ -132,11 +396,18 @@
       align-items: center;
       justify-content: center;
     }
+
   
     .text-content,
-    .image-content {
+    .home-image-content {
       width: 100%; 
       margin-bottom: 2rem; 
+      align-items: center;
+      justify-content: center;
+    }
+
+    .home-card-con{
+      flex-direction: column;
       align-items: center;
       justify-content: center;
     }
@@ -155,7 +426,7 @@
         }
         
       
-    .image-content {
+    .home-image-content {
       order: -1; /* Move the image content to the top */
     }
   

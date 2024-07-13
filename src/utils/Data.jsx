@@ -1,12 +1,4 @@
-export const events1 = [{
-    EventNumber: "1",
-    src: ('/events/Event-1/e1-1.jpg') ,
-    Title: 'Turnover Ceremony: ΤΓΦ Moy Onrubia Becomes Grand Triskelion',
-    Description: "A ceremonial event marking the transition of leadership within ΤΓΦ fraternity, as Moy Onrubia assumes the prestigious role of Grand Triskelion.",
-    Narrative: "On May 28, 2023, the ΤΓΦ fraternity came together for a big moment. It was time for a new leader to take charge. In a room filled with excitement, everyone watched as the current leader, surrounded by wise advisors, talked about his time leading the group. He spoke with thanks and humility, reminding everyone of the important values they hold dear. Then came the big moment. Moy Onrubia stepped up, ready to take on the role of top leader. With confidence and respect, he accepted the responsibility. Cheers and applause filled the room as everyone showed their support. In a powerful gesture, the fraternity members joined hands, showing they were united behind their new leader. Together, they promised to keep working hard and upholding the fraternity's values. As the ceremony ended, there was a feeling of hope and excitement in the air. Moy Onrubia was now at the helm, ready to lead the fraternity into a bright future.",
-    Date: "May 28, 2023",
-    
-},
+export const events1 = [
 {
     EventNumber: "2",
     src:('/events/Event-2/e2-1.jpg') ,
@@ -61,8 +53,8 @@ export const events1 = [{
 
 {
         EventNumber: "8",
-        src: "",
-        Title: "Mangudto Kita! at Mayon Elementary School",
+        src: "/events/Event-8/e8-1.jpg",
+        Title: "Mangudto Kita!",
         Description: "The Tau Gamma Phi/Tau Gamma Sigma - Tabaco City Executive Council organized a feeding program for Mayon evacuees at Mayon Elementary School, Buang Tabaco City.",
         Narrative: "The Tau Gamma Phi/Tau Gamma Sigma - Tabaco City Executive Council initiated a meaningful feeding program for Mayon evacuees at Mayon Elementary School, Buang Tabaco City. This compassionate effort aimed to provide assistance to those affected by the eruption of Mayon Volcano.\nWe extend our sincere appreciation to all officials of Tau Gamma Phi/Tau Gamma Sigma - Tabaco City Executive Council for their leadership and dedication in organizing this essential activity. Additionally, we salute all Grand Triskelions/Grand Lady Triskelions for their active participation and support.",
         Date: "July 2023"
@@ -71,7 +63,7 @@ export const events1 = [{
 
 {
         EventNumber: "9",
-        src: "",
+        src: "/events/Event-9/e9-1.jpg",
         
         Title: "Brigada Eskwela Participation at Tabaco National High School, Tabaco North Central, and Tabaco South Central Elementary Schools",
         Description: "Grand Triskelion Moy Onrubia, in collaboration with Tau Gamma Sigma led by Grand Lady Triskelion Jessica Nieto, spearheaded the participation in Brigada Eskwela at Tabaco National High School, Tabaco North Central, and Tabaco South Central Elementary Schools, emphasizing the fraternity's commitment to education and service, alongside his brother, Brod Yob Onrubia.",
@@ -82,14 +74,106 @@ export const events1 = [{
 
 {
         EventNumber: "10",
-        src: "",
+        src: "/events/Turnover-Canopy/e10-1.jpg",
         Title: "Turnover of Canopy Tent to Tau Gamma Phi/Sigma - Tayhi Chapter: Donation from Onrubia Family",
         Description: "The Tau Gamma Phi/Tau Gamma Sigma - Tayhi Chapter gratefully received a canopy tent, table, and chairs donated by the Onrubia family, facilitated by Bro. Yob Onrubia and City Councilor Bro. Arnol Onrubia. This contribution promises to enhance the chapter's activities and initiatives.",
         Narrative: "The Tau Gamma Phi/Tau Gamma Sigma - Tayhi Chapter expressed deep gratitude upon receiving a generous donation from the Onrubia family. The donation, which included a canopy tent, table, and chairs, was made possible through the dedicated efforts of Bro. Yob Onrubia and City Councilor Bro. Arnol Onrubia. This significant contribution is poised to greatly benefit the chapter, providing essential equipment for various events and gatherings. With the support of such benevolent contributions, the chapter eagerly anticipates embarking on more projects and endeavors in the future. Cheers and Arriba to Tau Gamma Phi/Tau Gamma Sigma - Tayhi Chapter's continued success and prosperity.",
         Date: "August 2023"
 
 
-}
+},
+{
+        EventNumber: "11",
+        src: "/events/Event-11/1.jpg",
+        Title: " Triskelion Night Handog ng Tau Gamma Phi - Tayhi Chapter",
+        Description: " Triskelion Night Handog ng Tau Gamma Phi - Tayhi Chapter",
+        Narrative: " The Tau Gamma Phi - Tayhi Chapter marked its 23rd chapter founding anniversary with an electrifying Triskelion Night celebration. Led by Grand Triskelion Moy Onrubia, the chapter welcomed brothers from various chapters in Tabaco and members of the Tabaco City Executive Council. The night pulsated with energy as Triskelions gathered to commemorate their shared history and achievements. Throughout the evening, camaraderie filled the air as brothers exchanged stories, laughter, and memories. The event featured lively performances, engaging activities, and heartfelt speeches that underscored the bonds of brotherhood within the fraternity. As the night progressed, a special moment of appreciation was extended to Tau Gamma Sigma, led by Grand Lady Triskelion Jessica Nieto. The Tau Gamma Phi - Tayhi Chapter expressed its sincerest gratitude for their continued support and collaboration. In the spirit of unity and camaraderie, the Triskelion Night Handog ng Tau Gamma Phi - Tayhi Chapter served as a testament to the enduring values of brotherhood, service, and excellence upheld by the fraternity.",
+        Date: "November 2023"
+
+
+},
+
+{
+    id: "12",
+    EventNumber: "12",
+    src: '/events/Medical-Mission/1.jpg' ,
+    Title: 'Medical Mission',
+    Description: "Tayhi Chapter organized a medical and dental mission in collaboration with the Provincial Government of Albay, under the leadership of Gov. Atty. Edcel Grex Burce Lagman. Grand Triskelion Moy Onrubia and Grand Lady Triskelion Jessica Nieto are delighted to celebrate their chapter's anniversary with everyone. Together, they strengthened their community in Barangay Tayhi, making life more enjoyable for all. The Tau Gamma Phi/Sigma - Tayhi Chapter extends heartfelt gratitude to Governor Brod. Gov. Atty. Edcel Grex Lagman, Provincial Administrator Sheina Onurbia, and Brod. Yob Onrubia. Special thanks also go to Neps Godino, former General Secretary of Tau Gamma Phi - Bicol Regional Council; Barbara Lafrades Brimbuela, Chairwoman of Tau Gamma Sigma Tabaco Council; Rayman De Mesa Cabiles and Artem Carmona, Advisers; Tau Gamma Phi/Sigma - Tayhi Elders; TGP/TGS officers; Daryl Onrubia Buenconsejo from Albay Provincial Agriculture Office; Ma’am Kristin Renee and Sir Mark Gumba from Provincial Health Office; and the medical doctors, dentists, and other personnel from the Provincial Government of Albay. This initiative exemplifies their commitment to service and community welfare, embodying the principles of Tau Gamma Phi/Sigma. Together, they continue to make a positive impact in their province, ensuring health and well-being for all.",
+    Narrative: "In November, as part of their 23rd chapter founding anniversary, the Tau Gamma Phi/Sigma - Tayhi Chapter organized a medical and dental mission in collaboration with the Provincial Government of Albay, under the leadership of Gov. Atty. Edcel Grex Burce Lagman. Grand Triskelion Moy Onrubia and Grand Lady Triskelion Jessica Nieto are delighted to celebrate their chapter's anniversary with everyone. Together, they strengthened their community in Barangay Tayhi, making life more enjoyable for all. The Tau Gamma Phi/Sigma - Tayhi Chapter extends heartfelt gratitude to Governor Brod. Gov. Atty. Edcel Grex Lagman, Provincial Administrator Sheina Onurbia, and Brod. Yob Onrubia. Special thanks also go to Neps Godino, former General Secretary of Tau Gamma Phi - Bicol Regional Council; Barbara Lafrades Brimbuela, Chairwoman of Tau Gamma Sigma Tabaco Council; Rayman De Mesa Cabiles and Artem Carmona, Advisers; Tau Gamma Phi/Sigma - Tayhi Elders; TGP/TGS officers; Daryl Onrubia Buenconsejo from Albay Provincial Agriculture Office; Ma’am Kristin Renee and Sir Mark Gumba from Provincial Health Office; and the medical doctors, dentists, and other personnel from the Provincial Government of Albay. This initiative exemplifies their commitment to service and community welfare, embodying the principles of Tau Gamma Phi/Sigma. Together, they continue to make a positive impact in their province, ensuring health and well-being for all.",
+    Date: "November 2023"
+},
+
+
+
+
+
+
+{
+    id: "14",
+    EventNumber: "14",
+    src: '/events/Tesda/1.jpg',
+    Title: 'TESDA',
+    Description: "The Tau Gamma Phi - Tayhi Chapter, led by Grand Triskelion Moy Onrubia, established a partnership with the Technical Education and Skills Development Authority (TESDA) through Brother Yob Onrubia. Grand Triskelion Moy Onrubia discussed potential courses with Ma'am Dana Sacay and Sir Aldrin Sacay.",
+    Narrative: "The Tau Gamma Phi - Tayhi Chapter, led by Grand Triskelion Moy Onrubia, established a partnership with the Technical Education and Skills Development Authority (TESDA) through Brother Yob Onrubia. Grand Triskelion Moy Onrubia discussed potential courses with Ma'am Dana Sacay and Sir Aldrin Sacay. They decided to offer a computer literacy course, recognizing the importance of digital skills in today's world. Grand Triskelion Moy Onrubia dreams that one day every member, and even non-members, will be tech-savvy or computer literate, opening doors to future education and opportunities in technology.",
+    Date: "June 2024"
+},
+
+
+
+
+{
+    id: "15",
+    EventNumber: "15",
+    src: '/events/Gift-Giving/18.jpg' ,
+    Title: 'Gift Giving',
+    Description: "Tayhi Chapter, led by Grand Triskelion Moy Onrubia and Grand Lady Triskelion Jessica Nieto, organized a special gift-giving event for all persons with disabilities (PWDs) and senior citizens in Barangay Tayhi",
+    Narrative: "Tau Gamma Phi/Sigma - Tayhi Chapter, led by Grand Triskelion Moy Onrubia and Grand Lady Triskelion Jessica Nieto, organized a special gift-giving event for all persons with disabilities (PWDs) and senior citizens in Barangay Tayhi. This event aimed to spread joy and show appreciation to the community members, recognizing their unique contributions and needs. Gifts were distributed to bring smiles and happiness, creating a warm and inclusive atmosphere for everyone involved.",
+    Month: "December",
+    Year: 2023,
+},
+{
+    id: "13",
+    EventNumber: "13",
+    images: [
+     
+    ],
+    Title: 'Patubig',
+    Description: "The Tau Gamma Phi - Tayhi Chapter, led by Grand Triskelion Moy Onrubia, organized an activity called 'Panatang Triskelion: Libreng Patubig Para Sa Prusisyon.",
+    Narrative: "The Tau Gamma Phi - Tayhi Chapter, led by Grand Triskelion Moy Onrubia, organized an activity called 'Panatang Triskelion: Libreng Patubig Para Sa Prusisyon.' This event aimed to provide free bottled water to the devotees participating in the procession. The Tau Gamma Phi - Tayhi Chapter expressed their gratitude to the Tau Gamma Sigma - Tayhi Chapter, led by Grand Lady Triskelion, for generously donating the bottled water needed to support this activity. Their combined efforts ensured that the devotees stayed hydrated during the procession.",
+    Month: "March",
+    Year: 2024,
+},
+
+
+
+
+
+{
+    id: "12",
+    EventNumber: "12",
+    src: '/events/Joint-Force/1.jpg' ,
+    Title: 'Joint Force',
+    Description: "Tayhi Chapter organized a medical and dental mission in collaboration with the Provincial Government of Albay.",
+    Narrative: "Tayhi Chapter organized a medical and dental mission in collaboration with the Provincial Government of Albay, under the leadership of Gov. Atty. Edcel Grex Burce Lagman. Grand Triskelion Moy Onrubia and Grand Lady Triskelion Jessica Nieto are delighted to celebrate their chapter's anniversary with everyone. Together, they strengthened their community in Barangay Tayhi, making life more enjoyable for all. The Tau Gamma Phi/Sigma - Tayhi Chapter extends heartfelt gratitude to Governor Brod. Gov. Atty. Edcel Grex Lagman, Provincial Administrator Sheina Onurbia, and Brod. Yob Onrubia. Special thanks also go to Neps Godino, former General Secretary of Tau Gamma Phi - Bicol Regional Council; Barbara Lafrades Brimbuela, Chairwoman of Tau Gamma Sigma Tabaco Council; Rayman De Mesa Cabiles and Artem Carmona, Advisers; Tau Gamma Phi/Sigma - Tayhi Elders; TGP/TGS officers; Daryl Onrubia Buenconsejo from Albay Provincial Agriculture Office; Ma’am Kristin Renee and Sir Mark Gumba from Provincial Health Office; and the medical doctors, dentists, and other personnel from the Provincial Government of Albay. This initiative exemplifies their commitment to service and community welfare, embodying the principles of Tau Gamma Phi/Sigma. Together, they continue to make a positive impact in their province, ensuring health and well-being for all.",
+    Month: "March",
+    Year: 2024,
+},
+
+
+
+
+
+
+
+{
+    EventNumber: "1",
+    src: ('/events/Turnover-Ceremony/e1-1.jpg') ,
+    Title: 'Turnover Ceremony: ΤΓΦ Moy Onrubia Becomes Grand Triskelion',
+    Description: "A ceremonial event marking the transition of leadership within ΤΓΦ fraternity, as Moy Onrubia assumes the prestigious role of Grand Triskelion.",
+    Narrative: "On May 28, 2023, the ΤΓΦ fraternity came together for a big moment. It was time for a new leader to take charge. In a room filled with excitement, everyone watched as the current leader, surrounded by wise advisors, talked about his time leading the group. He spoke with thanks and humility, reminding everyone of the important values they hold dear. Then came the big moment. Moy Onrubia stepped up, ready to take on the role of top leader. With confidence and respect, he accepted the responsibility. Cheers and applause filled the room as everyone showed their support. In a powerful gesture, the fraternity members joined hands, showing they were united behind their new leader. Together, they promised to keep working hard and upholding the fraternity's values. As the ceremony ended, there was a feeling of hope and excitement in the air. Moy Onrubia was now at the helm, ready to lead the fraternity into a bright future.",
+    Date: "May 28, 2023",
+    
+},
 
 
 

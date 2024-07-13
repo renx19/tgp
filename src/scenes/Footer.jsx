@@ -42,7 +42,7 @@ const Footer = () => {
             <li><FaYoutube className='soc-icon' /></li>
           </ul>
           <p className="">
-            &copy; {new Date().getFullYear()} Tayhi Chapter Tau Gamma. All rights reserved.
+            &copy; {new Date().getFullYear()} Tayhi Chapter All Rights Reserved.
           </p>
         </div>
 
