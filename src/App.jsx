@@ -14,6 +14,7 @@ import ProtectedRoute from './middleware/authContext'; // Adjust the import path
 import Footer from './scenes/Footer';
 import Privacy from './components/FooterUl/Privacy';
 import FAQ from './components/FooterUl/FAQ';
+import Developer from './components/FooterUl/Developer';
 
 function App() {
   const currentTheme = localStorage.getItem('current_theme');
@@ -24,16 +25,27 @@ function App() {
     localStorage.setItem('current_theme', theme);
   }, [theme]);
 
+
+  // const disableRightClick = (e) => {
+  //   e.preventDefault();
+  // };
+
+  // document.addEventListener('contextmenu', disableRightClick);
+
+
+
   return (
     <div className={`body-container ${theme}`}>
       <HashRouter>
         <Navbar theme={theme} setTheme={setTheme} />
+
       
         <Routes>
           <Route path="/footer" element={<FooterLinks />} />
           <Route path="/footer/#privacy" element={<Privacy />} />
           <Route path="/footer/#faq" element={<FAQ />} />
         
+          <Route path="/developer" element={<Developer />} />
 
           <Route path="/home" element={<Home />} />
           <Route path="/" element={<Home />} />

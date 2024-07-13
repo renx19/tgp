@@ -3,6 +3,7 @@ import React from 'react';
 
 function Terms() {
   return (
+    <div className='container'>
     <div className='terms-text-con'>
       <h1 className='terms-title'>Terms and Conditions</h1>
       <p className='intro'>Welcome to Tayhi Chapter Tau Gamma Phi! We're delighted to have you join our community dedicated to brotherhood and service. Before you dive in, please take a moment to review the following terms and conditions that govern your participation in our organization:</p>
@@ -47,6 +48,7 @@ function Terms() {
       <p className='term-content'>If you have any questions or concerns about these terms and conditions, or if you'd like to learn more about Tayhi Chapter Tau Gamma Phi, please don't hesitate to contact us at the contact information given below.</p>
 
       <p className='terms-content'>By continuing to participate in our organization, you acknowledge that you have read, understood, and agreed to abide by these terms and conditions. Thank you for being a part of Tayhi Chapter Tau Gamma Phi!</p>
+    </div>
     </div>
   );
 }

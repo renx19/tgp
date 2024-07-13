@@ -7,6 +7,12 @@
   
 }
 
+
+.dark .slick-dots li button:before{
+color: #fff;
+
+} 
+
 .event-con{
   padding-top: 1rem;
   padding-bottom: 2rem;

@@ -1,3 +1,27 @@
+.dev-con {
+  position: relative;
+  width: 100%;
+  height: 100vh; /* Adjust as needed */
+  overflow-x: hidden;
+  overflow-y: auto;
+  background-color: #f0f0f0; /* Your main background color */
+  padding: 20px;
+}
+
+.popup {
+  position: relative; /* Change to relative for proper stacking */
+  width: 100%; /* Full width */
+  height: 100vh; /* Adjust height as needed */
+  background-size: cover;
+  opacity: -5; /* Adjust opacity as needed */
+  transition: opacity 0.5s ease-in-out;
+}
+
+.popup.show {
+  opacity: 1; /* Show the popup */
+}
+
+
 /* Terms and COndtion CSS */
 
 .terms-text-con {
@@ -42,6 +66,11 @@
     text-align: justify;
     padding: 4rem;
     margin: 2rem;
+
+}
+
+.dark .faq-page{
+  color: #ffff;
 }
 
 .faq-page h1{
@@ -99,6 +128,10 @@
     display: flex;
     flex-direction: column;
     text-align: justify;
+  }
+
+  .dark .privacy-page, .dark .privacy-section ul l, .dark .privacy-page p{
+    color: #fff;
   }
 
   @media (max-width: 477px) {

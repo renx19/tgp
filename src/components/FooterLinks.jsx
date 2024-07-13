@@ -4,6 +4,7 @@ import FAQ from './FooterUl/FAQ';
 import Privacy from './FooterUl/Privacy';
 import '../styles/ulfooter.css';
 import { useLocation } from 'react-router-dom';
+import Developer from './FooterUl/Developer';
 
 function FooterLinks() {
   const termsRef = useRef(null);
@@ -26,7 +27,7 @@ function FooterLinks() {
   }, [location]);
 
   return (
-    <div className='container'>
+    <div className='body-container'>
       <div className='footer-ul'>
         <div ref={termsRef}>
           <Terms />
@@ -36,6 +37,9 @@ function FooterLinks() {
         </div>
         <div ref={faqRef}>
           <FAQ />
+        </div>
+        <div ref={faqRef}>
+          <Developer />
         </div>
       </div>
     </div>
