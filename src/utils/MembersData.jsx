@@ -13,7 +13,7 @@ export const MembersData = [
     status: "Expelled",
     qrData: {
       id: 1,
-      link: `http://localhost:5173/member/1`
+      link: `https://tgp-tayhi.netlify.app/member/1`
     }
   },
   { 
