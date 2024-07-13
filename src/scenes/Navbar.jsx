@@ -2,8 +2,8 @@ import React, { useState } from 'react';
 import '../styles/navbar.css';
 import logo_light from '../assets/light.jpg';
 import logo_dark from '../assets/dark.png';
-import LightModeIcon from '@mui/icons-material/LightMode';
-import DarkModeIcon from '@mui/icons-material/DarkMode';
+import { MdLightMode } from "react-icons/md";
+import { MdDarkMode } from "react-icons/md";
 import { useMediaQuery } from '@mui/material';
 import PropTypes from 'prop-types';
 import { NavLink, useNavigate } from 'react-router-dom'; // Updated import
@@ -56,9 +56,9 @@ const Navbar = ({ theme, setTheme }) => {
 
                 <div className='toggle-icon'>
                     {theme === 'light' ? (
-                        <LightModeIcon className='theme-icon' style={{ fontSize: '40px' }} onClick={toggleMode} />
+                        <MdLightMode className='theme-icon' style={{ fontSize: '40px' }} onClick={toggleMode} />
                     ) : (
-                        <DarkModeIcon className='theme-icon dark-mode-icon' style={{ fontSize: '40px' }} onClick={toggleMode} />
+                        <MdDarkMode className='theme-icon dark-mode-icon' style={{ fontSize: '40px' }} onClick={toggleMode} />
                     )}
                 </div>
 
